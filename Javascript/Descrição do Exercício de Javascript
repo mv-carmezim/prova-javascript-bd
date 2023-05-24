@@ -1,0 +1,24 @@
+Descrição do Exercício
+	Você está desenvolvendo um sistema de login para um site e precisa implementar em JavaScript o código que verifica se um usuário digitou a senha correta.
+
+	O sistema já possui uma lista de senhas válidas armazenadas em um vetor chamado "senhasValidas". O algorítimo deve receber a senha digitada pelo usuário e verificar se ela está presente no vetor de senhas válidas. Se a senha estiver na lista, o código deve alertar com a mensagem "Acesso concedido". Caso contrário, deve alertar a mensagem "Acesso negado".
+
+
+Instruções
+	-	Utilize o arquivo "exercicio-de-javascript.html" apenas para abrir no navegador e testar, exatamente como fizemos em sala. Este arquivo já está pronto e não precisa ser modificado
+
+	-	Seu código deve ser feito no arquivo "exercicio-de-javascript.js". É lá que você deve desenvolver a resposta do desafio.
+
+	-	Se terminar o tempo, faça o commit de tudo que você tiver, não importa se está funcionando ou não. Avaliaremos tudo que você fez.
+
+
+Dicas
+	-	Declare um vetor chamado "senhasValidas" com algumas senhas válidas, por exemplo: ["senha123", "abc456", "qwerty"]
+
+	-	Crie uma forma de perguntar ao usuário qual a senha que ele deseja validar.
+
+	-	Crie o código que utilize um if para verificar se a senha está presente no vetor "senhasValidas".
+
+	-	Se a senha estiver presente, retorne a mensagem "Acesso concedido" com um alerta.
+
+	-	Caso contrário, utilize o else para retornar a mensagem "Acesso negado" usando também um alerta.

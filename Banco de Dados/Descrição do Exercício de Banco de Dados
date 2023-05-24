@@ -1,0 +1,52 @@
+Descrição do Exercício 
+	Preparamos dois casos de uso com o tema Alunos de uma escola. Siga as instruções abaixo:
+
+Instruções
+	-	Copie o conteúdo do arquivo "sql-criar-tabelas.sql" e execute no VSCode para construir e popular as tabelas que usaremos no exercício
+	-	Leia atentamente a descrição do Caso 1
+	-	Sua missão é construir um SQL para cada uma das tarefas que estiverem listadas para o Caso 1
+	-	Coloque as respostas, ou seja, os SQLs que você construir no arquivo "sql-resposta-do-desafio-1.sql"
+	-	Siga para o Caso 2 e faça o mesmo: leia o desafio e coloque as respostas no arquivo "sql-resposta-do-desafio-2.sql"
+	-	O Caso 2 é um caso bonus, mais difícil. Mas é importante tentar faze-lo. Tente o máximo que puder!
+	-	Se terminar o tempo, faça o commit de tudo que você tiver, não importa se está funcionando ou não. Avaliaremos tudo que você fez.
+
+
+
+
+
+CASO 1 - DESCRIÇÃO
+	Você é um professor em uma escola e possui uma tabela chamada "Alunos", que armazena informações sobre os alunos matriculados na escola. A tabela possui as seguintes colunas:
+
+	id: identificador único do aluno (inteiro)
+	nome: nome completo do aluno (texto)
+	idade: idade do aluno (inteiro)
+	serie: série em que o aluno está matriculado (texto)
+
+CASO 1 - TAREFAS:
+
+	1 - Escreva uma consulta SQL para selecionar todos os alunos da tabela "Alunos".
+
+	2 - Escreva uma consulta SQL para selecionar apenas os alunos que têm 15 anos de idade.
+
+	3 -	Escreva uma consulta SQL para selecionar os alunos que estão matriculados na 8ª série.
+
+	4 - Escreva uma consulta SQL para selecionar os alunos que se chamam "João".
+
+
+
+
+CASO 2 - DESCRIÇÃO
+	Você ainda é o professor da turma e agora chegou a hora de olhar para as notas dos alunos. 
+
+	Voce possui uma tabela chamada Notas com a seguinte configuração:
+
+	id: identificador único da nota (inteiro)
+	id_aluno: identificador do aluno a qual pertence a nota (inteiro)
+	disciplina: nome da disciplina (texto)
+	nota: nota que o aluno recebeu na disciplina (decimal)
+
+CASO 2 - TAREFA:
+
+	1 - Escreva uma consulta SQL que retorne a nota do aluno "João" na disciplina "Matemática".
+
+	
